@@ -6,6 +6,26 @@
 </head>
 
 <body>
+  <div id="banner">Welcome to Brad's Personal Website</div>
+  <header>
+    ...
+  </header>
+  ...
+</body>
+
+
+<style>
+  #banner {
+    text-align: center;
+    background-color: #f1f1f1;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+  }
+</style>
+
+
+<body>
   <header>
     <nav>
       <ul>
