@@ -5,8 +5,16 @@
   <title>My Personal Website</title>
 </head>
 
+
+
 <body>
-  <div id="banner">Welcome to Brad's Personal Website</div>
+  <div id="banner">Welcome to Brad & Jessie's Personal Website</div>
+  <p id="sub-text">Aspiring Software Engineer that will change the world</p>
+  #sub-text {
+  text-align: center;
+  font-size: 20px;
+  font-style: italic;
+}
   <header>
     ...
   </header>
@@ -17,12 +25,66 @@
 <style>
   #banner {
     text-align: center;
-    background-color: #f1f1f1;
+    background-color: #A32CC4;
     padding: 20px;
     font-size: 30px;
     font-weight: bold;
   }
 </style>
+
+<body bgcolor=”#A32CC4">
+
+<body>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h1>About Me</h1>
+      <p>Here's a little bit about me and what I do.</p>
+    </section>
+    <img src="C:\Users\bjs29\Desktop\Brad & Cici's Website\bow tie.jpg" alt="image">
+    <img src="C:\Users\bjs29\Desktop\Brad & Cici's Website\gary and ash.jpg" alt="image">
+    <img src="C:\Users\bjs29\Desktop\Brad & Cici's Website\1200px-Jigglypuff_anime.png" alt="image">
+    <section id="projects">
+      <h1>My Projects</h1>
+      <ul>
+        <li><a href="#">Project 1</a></li>
+        <li><a href="#">Project 2</a></li>
+        <li><a href="#">Project 3</a></li>
+      </ul>
+    </section>
+
+    <section id="contact">
+      <h1>Contact Me</h1>
+      <form action="submit-form.php" method="post">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name">
+        <br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email">
+        <br>
+        <label for="message">Message:</label>
+        <textarea id="message" name="message"></textarea>
+        <br>
+        <input type="submit" value="Send">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>Copyright ©2022 My Personal Website</p>
+  </footer>
+
+</body>
+
 
 
 <body>
@@ -68,9 +130,6 @@
     </section>
   </main>
 
-  <footer>
-    <p>Copyright ©2022 My Personal Website</p>
-  </footer>
 
 </body>
 
