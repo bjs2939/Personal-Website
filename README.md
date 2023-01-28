@@ -1,3 +1,3 @@
 # Personal-Website
-Personal Website
-trying to improve my Git Hub skills
+Brad & Cici's html 
+trying to improve my skills
